@@ -1,0 +1,66 @@
+body {
+  background-image: url("https://wallpapers.com/images/featured/full-screen-hd-mzq1tky4bk615ho8.jpg");
+  background-size:contain;
+  background-position: center; 
+}
+
+#treeWrapper {
+  font-family: Arial, sans-serif;
+  
+  padding: 1em;
+  overflow: hidden; 
+}
+
+.node__root {
+  stroke: #2c3e50; 
+}
+
+.node__branch {
+  stroke: #3498db; 
+}
+
+.node__leaf {
+  stroke: #2ecc71;
+}
+
+.node__root > circle {
+  fill: #e74c3c;
+  stroke: #c0392b; 
+  stroke-width: 2px;
+}
+
+.node__branch > circle {
+  fill: #f39c12;
+  stroke: #e67e22; 
+  stroke-width: 2px;
+}
+
+.node__leaf > circle {
+  fill: #2ecc71;
+  stroke: #27ae60; 
+  stroke-width: 2px;
+}
+
+.node__root > text,
+.node__branch > text,
+.node__leaf > text {
+  font-size: 12px;
+  fill: #ffffff; 
+  text-anchor: middle;
+}
+
+.link__to-leaf {
+  stroke: #3498db; 
+  stroke-width: 2px;
+  stroke-dasharray: 5, 5; 
+}
+
+.link__to-branch {
+  stroke: #e67e22; 
+  stroke-width: 2px;
+}
+
+.custom-link {
+  stroke: #95a5a6;
+  stroke-width: 2px;
+}
