@@ -1,12 +1,12 @@
 body {
   background-image: url("https://wallpapers.com/images/featured/full-screen-hd-mzq1tky4bk615ho8.jpg");
-  background-size:contain;
-  background-position: center; 
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat; 
 }
 
 #treeWrapper {
   font-family: Arial, sans-serif;
-  
   padding: 1em;
   overflow: hidden; 
 }
