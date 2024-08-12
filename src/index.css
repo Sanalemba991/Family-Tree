@@ -56,11 +56,42 @@ body {
 }
 
 .link__to-branch {
-  stroke: #e67e22; 
+  stroke: greenyellow; 
   stroke-width: 2px;
 }
 
 .custom-link {
   stroke: #95a5a6;
   stroke-width: 2px;
+}
+
+.Add{
+  margin-left: 9px;
+font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  border-radius: 9px;
+}
+.Ba{
+
+  margin-bottom: 7%;
+  margin-left: 4%;
+  background-color: transparent;
+
+}
+.Ko{
+  margin-left: 9px;
+  font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 9px;
+}
+.uo{
+  margin-left: 9px;
+  font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+   border-color: black;
+    border-radius: 9px;
+}
+.sk{
+  margin-left: 1%;
 }
