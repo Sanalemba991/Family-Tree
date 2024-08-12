@@ -65,12 +65,22 @@ body {
   stroke-width: 2px;
 }
 
-.Add{
+.Add {
   margin-left: 9px;
-font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: transparent;
   border-radius: 9px;
+  transition: background-color 0.3s, transform 0.3s;
+  filter: drop-shadow(12px 8px 10px black); 
 }
+
+
+.Add:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+  filter: drop-shadow(12px 8px 10px black); 
+}
+
 .Ba{
 
   margin-bottom: 7%;
